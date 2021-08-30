@@ -7,10 +7,12 @@
 }
 
 .initials-logo {
-  width: 45px;
+  width: 47px;
 }
+
 .bg-custom {
   background: #40a8c4;
+  font-size: 18px;
 }
 
 h1,
@@ -32,6 +34,10 @@ h3 {
 
 .hero h2 {
   font-size: 24px;
+}
+
+.hero p {
+  color: var(--about-color);
 }
 
 .hero img {
