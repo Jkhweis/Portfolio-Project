@@ -1,7 +1,16 @@
 :root {
   --branding-color: #e4f1fe;
   --primary-color: #22313f;
+  --test-color: #2b4a68;
+  --about-color: #c284f8;
   --heading-font-family: Merriweather;
+}
+
+.initials-logo {
+  width: 45px;
+}
+.bg-custom {
+  background: #40a8c4;
 }
 
 h1,
@@ -22,30 +31,37 @@ h3 {
 }
 
 .hero h2 {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .hero img {
   width: 300px;
 }
 
+.skill-icons {
+  font-size: 64px;
+  color: rgb(209, 173, 209);
+}
+
+.homepage-mid h2 {
+  color: var(--primary-color);
+  font-family: var(--heading-font-family);
+  font-size: 26px;
+}
+
 .homepage-content {
   background: var(--branding-color);
 }
 
-.homepage-content h2 {
+.homepage-content h2,
+h3 {
   color: var(--primary-color);
-  font-family: var(--heading-font-family);
-  font-size: 30px;
-}
-
-.homepage-content h3 {
   font-family: var(--heading-font-family);
   font-size: 26px;
 }
 
 .homepage-content img {
-  width: 315px;
+  width: 300px;
 }
 
 .contact-link {
@@ -56,4 +72,16 @@ h3 {
   line-height: 27px;
   padding: 16px 20px;
   text-decoration: none;
+}
+
+footer .social-link-icons {
+  margin: 0 20px;
+  font-size: 50px;
+  color: var(--about-color);
+  padding: 10px 10px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-link-icons:hover {
+  color: rgb(209, 173, 209);
 }

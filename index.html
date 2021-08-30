@@ -19,6 +19,10 @@
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/c5ca5924a2.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,9 +32,11 @@
     <title>Joy Khweis' Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Joy Khweis</a>
+        <a class="navbar-brand" href="index.html"
+          ><img src="images/initialslogo.png" class="img-fluid initials-logo"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -67,36 +73,82 @@
         <div class="col-sm-6">
           <h1>Joy Khweis</h1>
           <h2 class="mb-3">Front End Developer based in Chicago</h2>
-          <h3>With skills in:</h3>
+          <h2>With skills in:</h2>
+          <div class="skill-icons">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js-square"></i>
+            <i class="fab fa-react"></i>
+            <i class="fab fa-github"></i>
+          </div>
         </div>
         <div class="col-sm-6">
           <img
             src="images/headshot.jpg"
-            class="mb-4 img-fluid rounded-pill border border-2 border-light"
+            class="mb-4 img-fluid rounded-pill border border-0 border-light"
           />
         </div>
       </div>
     </div>
-    <div class="homepage-content">
+    <div class="homepage-mid">
       <br />
       <h2 class="text-center">Have a look at my projects:</h2>
-      <br />
-      <br />
+    </div>
+    <div class="homepage-content d-flex justify-content-center">
       <div class="row">
         <div class="col-sm-6">
           <div class="text-center">
+            <br />
             <h3>React Weather App</h3>
-            <img src="images/weather.png" class="mb-4 img-fluid rounded" />
+            <a
+              href="https://elated-dijkstra-a36404.netlify.app/"
+              target="_blank"
+            >
+              <img src="images/weather.png" class="mb-4 img-fluid rounded" />
+            </a>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="text-center">
+            <br />
             <h3>React Dictionary App (TBD)</h3>
             <img src="images/react.png" class="mb-4 img-fluid rounded-pill" />
           </div>
         </div>
       </div>
     </div>
+    <br />
+
+    <footer
+      class="social-links d-flex justify-content-around align-items-center"
+    >
+      <div class="d-flex justify-content-between">
+        <a
+          href="https://github.com/Jkhweis"
+          target="_blank"
+          class="social-link-icons"
+          title="Github Profile"
+        >
+          <i class="fab fa-github social-link-icon"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/joy-khweis-bb91b0198/"
+          target="_blank"
+          class="social-link-icons"
+          title="LinkedIn Profile"
+        >
+          <i class="fab fa-linkedin social-link-icon"></i>
+        </a>
+        <a
+          href="mailto:joykhweis@gmail.com"
+          target="_blank"
+          class="social-link-icons"
+          title="Contact Email"
+        >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </footer>
     <br />
     <br />
   </body>
