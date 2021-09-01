@@ -7,7 +7,7 @@
 }
 
 .initials-logo {
-  width: 47px;
+  width: 45px;
 }
 
 h1,
@@ -86,4 +86,8 @@ footer .social-link-icons {
 }
 footer .social-link-icons:hover {
   color: rgb(209, 173, 209);
+}
+
+footer .social-link-icons .barf {
+  text-decoration: none;
 }
