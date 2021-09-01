@@ -33,6 +33,7 @@ h3 {
 
 .hero p {
   color: var(--about-color);
+  font-size: 19px;
 }
 
 .hero img {
@@ -73,20 +74,6 @@ h3 {
   line-height: 27px;
   padding: 16px 20px;
   text-decoration: none;
-}
-
-.portfolio-content {
-  background: var(--portfolio-color);
-  text-align: center;
-  padding: 100px 20px;
-}
-
-.portfolio-content img {
-  width: 500px;
-}
-
-.portfolio-content p {
-  color: var(--about-color);
 }
 
 footer .social-link-icons {
