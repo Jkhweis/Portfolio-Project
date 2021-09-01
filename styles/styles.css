@@ -1,18 +1,13 @@
 :root {
   --branding-color: #e4f1fe;
   --primary-color: #22313f;
-  --test-color: #2b4a68;
+  --portfolio-color: #2b4a68;
   --about-color: #c284f8;
   --heading-font-family: Merriweather;
 }
 
 .initials-logo {
   width: 47px;
-}
-
-.bg-custom {
-  background: #40a8c4;
-  font-size: 18px;
 }
 
 h1,
@@ -78,6 +73,20 @@ h3 {
   line-height: 27px;
   padding: 16px 20px;
   text-decoration: none;
+}
+
+.portfolio-content {
+  background: var(--portfolio-color);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.portfolio-content img {
+  width: 500px;
+}
+
+.portfolio-content p {
+  color: var(--about-color);
 }
 
 footer .social-link-icons {
