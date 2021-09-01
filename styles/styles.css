@@ -1,7 +1,6 @@
 :root {
   --branding-color: #e4f1fe;
   --primary-color: #22313f;
-  --portfolio-color: #2b4a68;
   --about-color: #c284f8;
   --heading-font-family: Merriweather;
 }
@@ -11,8 +10,7 @@
 }
 
 h1,
-h2,
-h3 {
+h2 {
   color: var(--branding-color);
   font-family: var(--heading-font-family);
 }
@@ -66,16 +64,6 @@ h3 {
   width: 300px;
 }
 
-.contact-link {
-  background: #22313f;
-  color: white;
-  border-radius: 8px;
-  font-size: 19px;
-  line-height: 27px;
-  padding: 16px 20px;
-  text-decoration: none;
-}
-
 footer .social-link-icons {
   margin: 0 20px;
   font-size: 50px;
@@ -86,8 +74,4 @@ footer .social-link-icons {
 }
 footer .social-link-icons:hover {
   color: rgb(209, 173, 209);
-}
-
-footer .social-link-icons .barf {
-  text-decoration: none;
 }
